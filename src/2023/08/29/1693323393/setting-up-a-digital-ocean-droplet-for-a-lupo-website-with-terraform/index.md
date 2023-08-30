@@ -2,6 +2,10 @@
 title: Setting up a Digital Ocean droplet for a Lupo website with Terraform
 date: 2023-08-29 16:36:33
 timestamp: 1693323393
+tags:
+  - digital ocean
+  - lupo
+  - terraform
 ---
 
 ## Contents

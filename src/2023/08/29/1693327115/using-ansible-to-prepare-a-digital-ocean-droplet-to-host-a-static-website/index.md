@@ -2,11 +2,24 @@
 title: Using ansible to prepare a digital ocean droplet to host a static website
 date: 2023-08-29 17:38:35
 timestamp: 1693327115
+tags:
+  - digital ocean
+  - static websites
+  - ansible
 ---
+
+## Contents
+0. [Preface](#preface)
+1. [Installng Ansible](#installing-ansible)
+2. [The inventory.yml file](#the-inventory.yml-file)
+3. [The setup.yml file explained](#the-setup.yml-file-explained)
+4. [Running the playbook](#running-the-playbook)
+5. [Testing your webserver](#testing-your-webserver)
+6. [Next Step](#next-step)
 
 ## Preface
 
-This guide comes logically after the previous one I wrote about setting up a digital ocean server with Terraform.
+This guide comes logically after the previous one I wrote about [setting up a digital ocean server with Terraform](/2023/08/29/1693323393/setting-up-a-digital-ocean-droplet-for-a-lupo-website-with-terraform/).
 
 You can clone [ my website's ansible repository ](https://github.com/davidpeach/davidpeach.me.ansible) for reference.
 
@@ -14,6 +27,14 @@ The main logic for this Ansible configuration happens in the `setup.yml` file.
 This file can be called whatever you like as we'll call it by name later on.
 
 ## Installing Ansible
+
+You can install Ansible with your package manager of choice.
+
+I install it using pacman on Arch Linux:
+
+```
+sudo pacman -S ansible
+```
 
 ## The inventory.yml file
 

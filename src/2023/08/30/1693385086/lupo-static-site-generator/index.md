@@ -2,7 +2,26 @@
 title: Lupo static site generator
 date: 2023-08-30 09:44:46
 timestamp: 1693385086
+tags:
+    - lupo
+    - static websites
 ---
+
+## Contents
+0. [What is Lupo?](#what-is-lupo)
+1. [Installation](#installation)
+2. [Anatomy of a Lupo website](#anatomy-of-a-lupo-website)
+3. [Starting a lupo website](#starting-a-lupo-website)
+4. [Viewing your site locally](#viewing-your-site-locally)
+5. [Page metadata](#page-metadata)
+6. [The Index page](#the-index-page)
+7. [Tag index pages](#tag-index-pages)
+8. [Customizing your website](#customizing-your-website)
+9. [New post helper](#new-post-helper)
+10. [Page edit helper](#page-edit-helper)
+11. [Automatic rebuild on save](#automatic-rebuild-on-save)
+12. [Deploying to a server](#deploying-to-a-server)
+13. [Going live](#going-live)
 
 ## What is Lupo?
 
@@ -34,7 +53,7 @@ rm -rf ./lupo
 
 ## Anatomy of a Lupo website
 
-The structure of a newly-initialize Lupo website project is as follows:
+The structure of a newly-initialized Lupo website project is as follows:
 
 ```
 .
