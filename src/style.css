@@ -4,14 +4,29 @@ html {
 
 body {
     font-size: 100%;
-    background: #bada55;
     padding-left: 3%;
     padding-right: 3%;
 }
 
-p {
+p, li, pre {
     max-width: 60rem;
     line-height: 1.7;
+}
+
+p > code {
+    background: #ccc;
+    padding: .25em .5em;
+    font-size: .9em;
+}
+
+li {
+    margin-bottom: 1em;
+}
+
+pre {
+    background: #eee;
+    border: 1px solid #222;
+    padding: .5em 1em;
 }
 
 img {
@@ -27,19 +42,19 @@ img {
 
 @media(min-width:65rem) {
     body {
-        font-size: 140%;
+        font-size: 120%;
     }
 }
 
 @media(min-width:80rem) {
     body {
-        font-size: 160%;
+        font-size: 120%;
     }
 }
 
 @media(min-width:110rem) {
     body {
-        font-size: 180%;
+        font-size: 120%;
     }
 }
 
@@ -48,3 +63,4 @@ img {
         font-size: 210%;
     }
 }
+
