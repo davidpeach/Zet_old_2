@@ -12,19 +12,24 @@
     <link rel=stylesheet href="/style.css" />
 </head>
 <body>
-    <h1>
+    <h1 class="wrap">
         $if(title)$
             $title$
         $else$
             $uri$
         $endif$
     </h1>
+    <nav class="main-nav">
+        <a href="/">Homepage</a>
+        <a href="/tags/">Tags</a>
+        <a href="/index/">Everything</a>
+    </nav>
     $if(tags)$
-    <div>
+    <div class="wrap">
         $for(tags)$
         <a href="/tags/$tags$/">$tags$</a>
         $endfor$
     </div>
     $endif$
-    <div>$body$</div>
+    <div class="wrap">$body$</div>
 </body>

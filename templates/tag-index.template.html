@@ -25,10 +25,9 @@
         <a href="/index/">Everything</a>
     </nav>
     <div class="wrap">
-        <ul>
+        <ul class=tags-list>
             $for(items)$
             <li>
-                <date>$items.date$</date>
                 <a href="$items.uri$">
                     $if(items.title)$
                     $items.title$

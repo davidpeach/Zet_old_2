@@ -1,5 +1,5 @@
 ---
-title: David Peach's Zettlekasten
+title: David Peach's Website
 ---
 
 Welcome to my zettlekasten. This is my personal knowledge base where I put 
